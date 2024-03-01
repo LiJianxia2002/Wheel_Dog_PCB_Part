@@ -1,0 +1,464 @@
+{
+  "uuid": "2d67860ab9e369cba57a04338fcc999a",
+  "path": "Offline/%E5%89%91%E5%AE%A2_%E8%88%B5%E6%9C%BA%E6%8E%A7%E5%88%B6%E6%9D%BF2.0",
+  "name": "剑客_舵机控制板2.0",
+  "content": "",
+  "created_at": "2024-01-08 17:16:01",
+  "updated_at": "2024-01-17 11:12:23",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "29c9501085c54803f5052d87cf3fcefc",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "01bebaa4adca4abcb985b9995a087c29": 1,
+        "4cea37382ce74aad9928d2b8f0987b04": 1,
+        "595f1b159cbb1fc2159315f85f2042a1": 1,
+        "d093bc01350b4057b829882ed33b6bd9": 1,
+        "a68dc5e6a9944c46b7604648a43dcd65": 14,
+        "b98a6a6f25744181958bbe9a99813955": 1,
+        "b4afd5cb0fc14d1e8571593a26bc10b8": 1,
+        "d5622905726b48918e9605fe1cdf0a7b": 1,
+        "92c32ceaaac84139add7ebda884f0a47": 1,
+        "39314085880d477b8f78d39c32bf6a34": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "1000uF",
+          1,
+          "CAP-TH_BD8.0-P3.50-D0.6-FD",
+          "C1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C494548",
+            "Manufacturer": "KNSCHA(科尼盛)",
+            "Manufacturer Part": "",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "SHW1000UF10V8X12",
+            "puuid": "90d1b58a2d284d63b5d026a0c4e38bab",
+            "uuid": "39314085880d477b8f78d39c32bf6a34"
+          }
+        ],
+        [
+          "I2C",
+          1,
+          "HDR-M-2.54_1X3",
+          "I2C",
+          {
+            "Supplier Part": "C180248",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "image": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_1x3",
+            "puuid": "9f77654394344f25b3de138e0fe05ff6",
+            "uuid": "a68dc5e6a9944c46b7604648a43dcd65"
+          }
+        ],
+        [
+          "TFT屏幕",
+          1,
+          "HDR-M-2.54_1X8",
+          "J14",
+          {
+            "Supplier Part": "C190820",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_1x8",
+            "puuid": "fb11a1cdebf6433b8a3c664a100689e6",
+            "uuid": "92c32ceaaac84139add7ebda884f0a47"
+          }
+        ],
+        [
+          "STM32F103C8T6最小系统板",
+          1,
+          "STM32F103C8T6最小系统板",
+          "MAIN1",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "daoqing",
+            "spiceSymbolName": "STM32F103C8T6最小系统板",
+            "puuid": "6bd5d90d01ea4ccc8e22e8158668a4d8",
+            "uuid": "b4afd5cb0fc14d1e8571593a26bc10b8"
+          }
+        ],
+        [
+          "NRF24L01",
+          1,
+          "WIRELM-SMD_NRF24L01",
+          "MK1",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "Ai-Thinker(安信可)",
+            "Manufacturer Part": "",
+            "Supplier Part": "C90751",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "NRF24L01",
+            "puuid": "b4cb6e6f44a64822b1a75e418bd409f5",
+            "uuid": "595f1b159cbb1fc2159315f85f2042a1"
+          }
+        ],
+        [
+          "KCD1-101",
+          1,
+          "KCD1-101",
+          "S1",
+          {
+            "学习资源": "www.ooocke.com",
+            "Contributor": "瞎转转",
+            "spiceSymbolName": "KCD1-101",
+            "Manufacturer Part": "",
+            "puuid": "4a58e714fc44451682dcd3e3ebc7775b",
+            "uuid": "01bebaa4adca4abcb985b9995a087c29"
+          }
+        ],
+        [
+          "SERVO1",
+          1,
+          "HDR-M-2.54_1X3",
+          "SV1",
+          {
+            "Supplier Part": "C180248",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "image": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_1x3",
+            "puuid": "9f77654394344f25b3de138e0fe05ff6",
+            "uuid": "a68dc5e6a9944c46b7604648a43dcd65"
+          }
+        ],
+        [
+          "SERVO2",
+          1,
+          "HDR-M-2.54_1X3",
+          "SV2",
+          {
+            "Supplier Part": "C180248",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "image": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_1x3",
+            "puuid": "9f77654394344f25b3de138e0fe05ff6",
+            "uuid": "a68dc5e6a9944c46b7604648a43dcd65"
+          }
+        ],
+        [
+          "SERVO3",
+          1,
+          "HDR-M-2.54_1X3",
+          "SV3",
+          {
+            "Supplier Part": "C180248",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "image": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_1x3",
+            "puuid": "9f77654394344f25b3de138e0fe05ff6",
+            "uuid": "a68dc5e6a9944c46b7604648a43dcd65"
+          }
+        ],
+        [
+          "SERVO4",
+          1,
+          "HDR-M-2.54_1X3",
+          "SV4",
+          {
+            "Supplier Part": "C180248",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "image": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_1x3",
+            "puuid": "9f77654394344f25b3de138e0fe05ff6",
+            "uuid": "a68dc5e6a9944c46b7604648a43dcd65"
+          }
+        ],
+        [
+          "SERVO5",
+          1,
+          "HDR-M-2.54_1X3",
+          "SV5",
+          {
+            "Supplier Part": "C180248",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "image": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_1x3",
+            "puuid": "9f77654394344f25b3de138e0fe05ff6",
+            "uuid": "a68dc5e6a9944c46b7604648a43dcd65"
+          }
+        ],
+        [
+          "SERVO6",
+          1,
+          "HDR-M-2.54_1X3",
+          "SV6",
+          {
+            "Supplier Part": "C180248",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "image": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_1x3",
+            "puuid": "9f77654394344f25b3de138e0fe05ff6",
+            "uuid": "a68dc5e6a9944c46b7604648a43dcd65"
+          }
+        ],
+        [
+          "SERVO7",
+          1,
+          "HDR-M-2.54_1X3",
+          "SV7",
+          {
+            "Supplier Part": "C180248",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "image": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_1x3",
+            "puuid": "9f77654394344f25b3de138e0fe05ff6",
+            "uuid": "a68dc5e6a9944c46b7604648a43dcd65"
+          }
+        ],
+        [
+          "SERVO8",
+          1,
+          "HDR-M-2.54_1X3",
+          "SV8",
+          {
+            "Supplier Part": "C180248",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "image": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_1x3",
+            "puuid": "9f77654394344f25b3de138e0fe05ff6",
+            "uuid": "a68dc5e6a9944c46b7604648a43dcd65"
+          }
+        ],
+        [
+          "SERVO9",
+          1,
+          "HDR-M-2.54_1X3",
+          "SV9",
+          {
+            "Supplier Part": "C180248",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "image": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_1x3",
+            "puuid": "9f77654394344f25b3de138e0fe05ff6",
+            "uuid": "a68dc5e6a9944c46b7604648a43dcd65"
+          }
+        ],
+        [
+          "SERVO10",
+          1,
+          "HDR-M-2.54_1X3",
+          "SV10",
+          {
+            "Supplier Part": "C180248",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "image": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_1x3",
+            "puuid": "9f77654394344f25b3de138e0fe05ff6",
+            "uuid": "a68dc5e6a9944c46b7604648a43dcd65"
+          }
+        ],
+        [
+          "SERVO11",
+          1,
+          "HDR-M-2.54_1X3",
+          "SV11",
+          {
+            "Supplier Part": "C180248",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "image": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_1x3",
+            "puuid": "9f77654394344f25b3de138e0fe05ff6",
+            "uuid": "a68dc5e6a9944c46b7604648a43dcd65"
+          }
+        ],
+        [
+          "SERVO12",
+          1,
+          "HDR-M-2.54_1X3",
+          "SV12",
+          {
+            "Supplier Part": "C180248",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "image": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_1x3",
+            "puuid": "9f77654394344f25b3de138e0fe05ff6",
+            "uuid": "a68dc5e6a9944c46b7604648a43dcd65"
+          }
+        ],
+        [
+          "XT30-卧插-公",
+          1,
+          "XT30PW-M",
+          "U1",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "akari_tun",
+            "spiceSymbolName": "XT30-卧插-公",
+            "puuid": "28c215f5a6bc43e8b0176487ccb6f517",
+            "uuid": "b98a6a6f25744181958bbe9a99813955"
+          }
+        ],
+        [
+          "AMS1117模块",
+          1,
+          "AMS1117模块",
+          "U2",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "risym",
+            "link": "https://m.tb.cn/h.VOj4bnW?sm=f9af33",
+            "Contributor": "huygvf123",
+            "spiceSymbolName": "AMS1117模块 COPY",
+            "puuid": "c45b4d95c30a4a6b8d0b189c1fffbc5f",
+            "uuid": "d093bc01350b4057b829882ed33b6bd9"
+          }
+        ],
+        [
+          "0805LED_G",
+          1,
+          "LED-SMD_L2.0-W1.3-R-RD",
+          "U3",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900010436",
+            "Manufacturer": "null",
+            "Manufacturer Part": "",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "0805LED_G",
+            "puuid": "5fbfb2fb66604cca83a0ad4806cfac17",
+            "uuid": "4cea37382ce74aad9928d2b8f0987b04"
+          }
+        ],
+        [
+          "人机交互开关",
+          1,
+          "SW-SMD_L6.0-W3.7-LS8.0",
+          "U4",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2845163",
+            "Manufacturer": "null",
+            "Manufacturer Part": "",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "RISYM 3X6X2.5轻触开关",
+            "puuid": "ad93db20f9154747917ef59d9c83636d",
+            "uuid": "d5622905726b48918e9605fe1cdf0a7b"
+          }
+        ],
+        [
+          "UART",
+          1,
+          "HDR-M-2.54_1X3",
+          "UART1",
+          {
+            "Supplier Part": "C180248",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "image": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_1x3",
+            "puuid": "9f77654394344f25b3de138e0fe05ff6",
+            "uuid": "a68dc5e6a9944c46b7604648a43dcd65"
+          }
+        ]
+      ],
+      "updateTime": 1705461143,
+      "createTime": 1704705362,
+      "histories": [],
+      "created_at": "2024-01-08 17:16:02",
+      "updated_at": "2024-01-17 11:12:23"
+    },
+    {
+      "uuid": "e3713762f2b7458817bd9d0a85c9f541",
+      "puuid": "2d67860ab9e369cba57a04338fcc999a",
+      "title": "PCB_剑客_舵机控制板2.0",
+      "filename": "PCB_剑客_舵机控制板2.0.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "9f77654394344f25b3de138e0fe05ff6": 14,
+        "6bd5d90d01ea4ccc8e22e8158668a4d8": 1,
+        "4a58e714fc44451682dcd3e3ebc7775b": 1,
+        "28c215f5a6bc43e8b0176487ccb6f517": 1,
+        "5fbfb2fb66604cca83a0ad4806cfac17": 1,
+        "ad93db20f9154747917ef59d9c83636d": 1,
+        "90d1b58a2d284d63b5d026a0c4e38bab": 1,
+        "b4cb6e6f44a64822b1a75e418bd409f5": 1,
+        "c45b4d95c30a4a6b8d0b189c1fffbc5f": 1,
+        "fb11a1cdebf6433b8a3c664a100689e6": 1
+      },
+      "BOM": [],
+      "updateTime": 1704724324,
+      "createTime": 1704708083,
+      "histories": [],
+      "created_at": "2024-01-08 18:01:23",
+      "updated_at": "2024-01-08 22:32:04"
+    }
+  ],
+  "sort": [],
+  "title": "剑客_舵机控制板2.0",
+  "foldername": "剑客_舵机控制板2.0",
+  "schfilename": "剑客_舵机控制板2.0.json",
+  "schfilemtime": 1705461144029
+}

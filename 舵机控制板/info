@@ -1,0 +1,365 @@
+{
+  "uuid": "7f9c4a642ec77227310107c2fc20fae5",
+  "path": "Offline/舵机控制板",
+  "name": "舵机控制板",
+  "content": "",
+  "created_at": "2023-11-16 21:23:10",
+  "updated_at": "2024-03-01 13:14:04",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "de2107bdcd76825f44131f91eff30bc1",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "b4afd5cb0fc14d1e8571593a26bc10b8": 1,
+        "a68dc5e6a9944c46b7604648a43dcd65": 14,
+        "b98a6a6f25744181958bbe9a99813955": 1,
+        "524d14d5397b40a3b7cf73bb19210ca9": 1,
+        "d093bc01350b4057b829882ed33b6bd9": 1,
+        "595f1b159cbb1fc2159315f85f2042a1": 1,
+        "4cea37382ce74aad9928d2b8f0987b04": 1,
+        "01bebaa4adca4abcb985b9995a087c29": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "1000uF",
+          1,
+          "CAP-TH_BD12.5-P5.00-D0.6-FD",
+          "C1",
+          {
+            "BOM_Manufacturer Part": "ECLJ1321102M035P00",
+            "puuid": "646b2bc75eb7468ebc6c9b1c5395cda9",
+            "uuid": "524d14d5397b40a3b7cf73bb19210ca9",
+            "BOM_Supplier Part": "C156894",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "TOPAZ(黄宝石)"
+          }
+        ],
+        [
+          "I2C",
+          1,
+          "HDR-M-2.54_1X3",
+          "I2C",
+          {
+            "BOM_Supplier Part": "C180248",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "9f77654394344f25b3de138e0fe05ff6",
+            "uuid": "a68dc5e6a9944c46b7604648a43dcd65"
+          }
+        ],
+        [
+          "SERVO2",
+          1,
+          "HDR-M-2.54_1X3",
+          "J1",
+          {
+            "BOM_Supplier Part": "C180248",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "9f77654394344f25b3de138e0fe05ff6",
+            "uuid": "a68dc5e6a9944c46b7604648a43dcd65"
+          }
+        ],
+        [
+          "SERVO7",
+          1,
+          "HDR-M-2.54_1X3",
+          "J2",
+          {
+            "BOM_Supplier Part": "C180248",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "9f77654394344f25b3de138e0fe05ff6",
+            "uuid": "a68dc5e6a9944c46b7604648a43dcd65"
+          }
+        ],
+        [
+          "SERVO8",
+          1,
+          "HDR-M-2.54_1X3",
+          "J3",
+          {
+            "BOM_Supplier Part": "C180248",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "9f77654394344f25b3de138e0fe05ff6",
+            "uuid": "a68dc5e6a9944c46b7604648a43dcd65"
+          }
+        ],
+        [
+          "SERVO3",
+          1,
+          "HDR-M-2.54_1X3",
+          "J4",
+          {
+            "BOM_Supplier Part": "C180248",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "9f77654394344f25b3de138e0fe05ff6",
+            "uuid": "a68dc5e6a9944c46b7604648a43dcd65"
+          }
+        ],
+        [
+          "SERVO9",
+          1,
+          "HDR-M-2.54_1X3",
+          "J5",
+          {
+            "BOM_Supplier Part": "C180248",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "9f77654394344f25b3de138e0fe05ff6",
+            "uuid": "a68dc5e6a9944c46b7604648a43dcd65"
+          }
+        ],
+        [
+          "SERVO4",
+          1,
+          "HDR-M-2.54_1X3",
+          "J6",
+          {
+            "BOM_Supplier Part": "C180248",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "9f77654394344f25b3de138e0fe05ff6",
+            "uuid": "a68dc5e6a9944c46b7604648a43dcd65"
+          }
+        ],
+        [
+          "SERVO10",
+          1,
+          "HDR-M-2.54_1X3",
+          "J7",
+          {
+            "BOM_Supplier Part": "C180248",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "9f77654394344f25b3de138e0fe05ff6",
+            "uuid": "a68dc5e6a9944c46b7604648a43dcd65"
+          }
+        ],
+        [
+          "SERVO5",
+          1,
+          "HDR-M-2.54_1X3",
+          "J8",
+          {
+            "BOM_Supplier Part": "C180248",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "9f77654394344f25b3de138e0fe05ff6",
+            "uuid": "a68dc5e6a9944c46b7604648a43dcd65"
+          }
+        ],
+        [
+          "SERVO11",
+          1,
+          "HDR-M-2.54_1X3",
+          "J9",
+          {
+            "BOM_Supplier Part": "C180248",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "9f77654394344f25b3de138e0fe05ff6",
+            "uuid": "a68dc5e6a9944c46b7604648a43dcd65"
+          }
+        ],
+        [
+          "SERVO6",
+          1,
+          "HDR-M-2.54_1X3",
+          "J10",
+          {
+            "BOM_Supplier Part": "C180248",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "9f77654394344f25b3de138e0fe05ff6",
+            "uuid": "a68dc5e6a9944c46b7604648a43dcd65"
+          }
+        ],
+        [
+          "SERVO1",
+          1,
+          "HDR-M-2.54_1X3",
+          "J11",
+          {
+            "BOM_Supplier Part": "C180248",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "9f77654394344f25b3de138e0fe05ff6",
+            "uuid": "a68dc5e6a9944c46b7604648a43dcd65"
+          }
+        ],
+        [
+          "SERVO12",
+          1,
+          "HDR-M-2.54_1X3",
+          "J12",
+          {
+            "BOM_Supplier Part": "C180248",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "9f77654394344f25b3de138e0fe05ff6",
+            "uuid": "a68dc5e6a9944c46b7604648a43dcd65"
+          }
+        ],
+        [
+          "STM32F103C8T6最小系统板",
+          1,
+          "STM32F103C8T6最小系统板",
+          "MAIN1",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "6bd5d90d01ea4ccc8e22e8158668a4d8",
+            "uuid": "b4afd5cb0fc14d1e8571593a26bc10b8"
+          }
+        ],
+        [
+          "NRF24L01",
+          1,
+          "WIRELM-SMD_NRF24L01",
+          "MK1",
+          {
+            "BOM_Manufacturer Part": "NF-04",
+            "puuid": "b4cb6e6f44a64822b1a75e418bd409f5",
+            "uuid": "595f1b159cbb1fc2159315f85f2042a1",
+            "BOM_Supplier Part": "C90751",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "Ai-Thinker(安信可)"
+          }
+        ],
+        [
+          "KCD1-101",
+          1,
+          "KCD1-101",
+          "S1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "4a58e714fc44451682dcd3e3ebc7775b",
+            "uuid": "01bebaa4adca4abcb985b9995a087c29"
+          }
+        ],
+        [
+          "XT30-卧插-公",
+          1,
+          "XT30PW-M",
+          "U1",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "28c215f5a6bc43e8b0176487ccb6f517",
+            "uuid": "b98a6a6f25744181958bbe9a99813955"
+          }
+        ],
+        [
+          "AMS1117模块",
+          1,
+          "AMS1117模块",
+          "U2",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "risym",
+            "puuid": "c45b4d95c30a4a6b8d0b189c1fffbc5f",
+            "uuid": "d093bc01350b4057b829882ed33b6bd9"
+          }
+        ],
+        [
+          "0805LED_G",
+          1,
+          "LED-SMD_L2.0-W1.3-R-RD",
+          "U3",
+          {
+            "BOM_Manufacturer Part": "0805LED_G",
+            "puuid": "5fbfb2fb66604cca83a0ad4806cfac17",
+            "uuid": "4cea37382ce74aad9928d2b8f0987b04",
+            "BOM_Supplier Part": "C9900010436",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "null"
+          }
+        ],
+        [
+          "UART",
+          1,
+          "HDR-M-2.54_1X3",
+          "UART",
+          {
+            "BOM_Supplier Part": "C180248",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "9f77654394344f25b3de138e0fe05ff6",
+            "uuid": "a68dc5e6a9944c46b7604648a43dcd65"
+          }
+        ]
+      ],
+      "updateTime": 1703588811,
+      "createTime": 1700140990,
+      "histories": [],
+      "created_at": "2023-11-16 21:23:10",
+      "updated_at": "2023-12-26 19:06:51"
+    },
+    {
+      "uuid": "8909c16ab50c2af729e56a44a81fef2c",
+      "puuid": "7f9c4a642ec77227310107c2fc20fae5",
+      "title": "PCB_舵机控制板",
+      "filename": "PCB_舵机控制板.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "4a58e714fc44451682dcd3e3ebc7775b": 1,
+        "c45b4d95c30a4a6b8d0b189c1fffbc5f": 1,
+        "9f77654394344f25b3de138e0fe05ff6": 14,
+        "6bd5d90d01ea4ccc8e22e8158668a4d8": 1,
+        "28c215f5a6bc43e8b0176487ccb6f517": 1,
+        "646b2bc75eb7468ebc6c9b1c5395cda9": 1,
+        "b4cb6e6f44a64822b1a75e418bd409f5": 1,
+        "5fbfb2fb66604cca83a0ad4806cfac17": 1
+      },
+      "BOM": [],
+      "updateTime": 1709270044,
+      "createTime": 1700143009,
+      "histories": [],
+      "created_at": "2023-11-16 21:56:49",
+      "updated_at": "2024-03-01 13:14:04"
+    }
+  ],
+  "sort": [],
+  "title": "舵机控制板",
+  "foldername": "舵机控制板",
+  "schfilename": "舵机控制板.json",
+  "schfilemtime": 1703588811816
+}

@@ -1,0 +1,399 @@
+{
+  "uuid": "978561781066ee8d9f76ea077cda463f",
+  "path": "Offline/剑客_遥控器2.0",
+  "name": "剑客_遥控器2.0",
+  "content": "",
+  "created_at": "2024-01-29 15:23:31",
+  "updated_at": "2024-02-07 22:36:24",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "222d613c302dbe381c5ea95cc8c80c82",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "b4afd5cb0fc14d1e8571593a26bc10b8": 1,
+        "b82150387a2041b4afd55b90c79c5923": 7,
+        "ed9eb2faffb34286820a54a14e9e9e24": 6,
+        "f049e8899a6c4b42a7c3345d708b0dc5": 2,
+        "92c32ceaaac84139add7ebda884f0a47": 1,
+        "a68dc5e6a9944c46b7604648a43dcd65": 1,
+        "595f1b159cbb1fc2159315f85f2042a1": 1,
+        "b98a6a6f25744181958bbe9a99813955": 1,
+        "4cea37382ce74aad9928d2b8f0987b04": 1,
+        "d093bc01350b4057b829882ed33b6bd9": 1,
+        "01bebaa4adca4abcb985b9995a087c29": 1,
+        "d5622905726b48918e9605fe1cdf0a7b": 2,
+        "a6f246a054fe434ca35c636510414d27": 1,
+        "a052559478a14ee2b9e3514bee4ff72d": 1,
+        "2c3467347bbf4837a897fa635c899e0f": 1,
+        "ae4a0c7c292b429f99434e70fdad39f1": 1,
+        "f5b1d9403e49471cab43bc5a1bec336f": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "100nf",
+          1,
+          "C0805",
+          "C9",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0805_US",
+            "Manufacturer Part": "",
+            "puuid": "2ee8eb13a0124a108e622ce40c0c25a8",
+            "uuid": "b82150387a2041b4afd55b90c79c5923"
+          }
+        ],
+        [
+          "MPU6050模块",
+          1,
+          "MPU6050模块",
+          "H3",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "saw123",
+            "spiceSymbolName": "MPU6050模块",
+            "puuid": "9cf846aa20f04fecb2373a44dfe9e35b",
+            "uuid": "ae4a0c7c292b429f99434e70fdad39f1"
+          }
+        ],
+        [
+          "2.54_头追陀螺仪",
+          1,
+          "HDR-M-2.54_1X4",
+          "J1",
+          {
+            "Supplier Part": "C124378",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_1x4",
+            "puuid": "282f7786cb6144d097ae00194c3e3fb3",
+            "uuid": "f5b1d9403e49471cab43bc5a1bec336f"
+          }
+        ],
+        [
+          "CH340",
+          1,
+          "HDR-M-2.54_1X5",
+          "J2",
+          {
+            "Supplier Part": "C358687",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_1x5",
+            "puuid": "108969f8d9834a9ea23bcec2d43a66e4",
+            "uuid": "a052559478a14ee2b9e3514bee4ff72d"
+          }
+        ],
+        [
+          "TFT屏幕",
+          1,
+          "HDR-M-2.54_1X8",
+          "J14",
+          {
+            "Supplier Part": "C190820",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_1x8",
+            "puuid": "fb11a1cdebf6433b8a3c664a100689e6",
+            "uuid": "92c32ceaaac84139add7ebda884f0a47"
+          }
+        ],
+        [
+          "100nF",
+          6,
+          "C0805",
+          "JC1,JC2,JC3,JC4,JC5,JC6",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0805_US",
+            "Manufacturer Part": "",
+            "puuid": "2ee8eb13a0124a108e622ce40c0c25a8",
+            "uuid": "b82150387a2041b4afd55b90c79c5923"
+          }
+        ],
+        [
+          "10k",
+          5,
+          "R0805",
+          "JR1,JR2,JR4,JR5,JR6",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0805_EU",
+            "Manufacturer Part": "",
+            "puuid": "b60f399a7a7e41848b2be1eb49c79141",
+            "uuid": "ed9eb2faffb34286820a54a14e9e9e24"
+          }
+        ],
+        [
+          "20k",
+          1,
+          "R0805",
+          "JR3",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "R_0805_EU",
+            "Manufacturer Part": "",
+            "puuid": "b60f399a7a7e41848b2be1eb49c79141",
+            "uuid": "ed9eb2faffb34286820a54a14e9e9e24"
+          }
+        ],
+        [
+          "JoyStick",
+          2,
+          "JOYSTICK",
+          "JU1,JU3",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "Saw123",
+            "spiceSymbolName": "JoyStick",
+            "puuid": "391beaaa4ed54f61a90e020b5ec7be18",
+            "uuid": "f049e8899a6c4b42a7c3345d708b0dc5"
+          }
+        ],
+        [
+          "STM32F103C8T6最小系统板",
+          1,
+          "STM32F103C8T6最小系统板",
+          "MAIN1",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "daoqing",
+            "spiceSymbolName": "STM32F103C8T6最小系统板",
+            "puuid": "6bd5d90d01ea4ccc8e22e8158668a4d8",
+            "uuid": "b4afd5cb0fc14d1e8571593a26bc10b8"
+          }
+        ],
+        [
+          "NRF24L01",
+          1,
+          "WIRELM-SMD_NRF24L01",
+          "MK1",
+          {
+            "Supplier": "LCSC",
+            "Manufacturer": "Ai-Thinker(安信可)",
+            "Manufacturer Part": "",
+            "Supplier Part": "C90751",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "NRF24L01",
+            "puuid": "b4cb6e6f44a64822b1a75e418bd409f5",
+            "uuid": "595f1b159cbb1fc2159315f85f2042a1"
+          }
+        ],
+        [
+          "KCD1-101",
+          1,
+          "KCD1-101",
+          "S1",
+          {
+            "学习资源": "www.ooocke.com",
+            "Contributor": "瞎转转",
+            "spiceSymbolName": "KCD1-101",
+            "Manufacturer Part": "",
+            "puuid": "4a58e714fc44451682dcd3e3ebc7775b",
+            "uuid": "01bebaa4adca4abcb985b9995a087c29"
+          }
+        ],
+        [
+          "XT30-卧插-公",
+          1,
+          "XT30PW-M",
+          "U1",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "akari_tun",
+            "spiceSymbolName": "XT30-卧插-公",
+            "puuid": "28c215f5a6bc43e8b0176487ccb6f517",
+            "uuid": "b98a6a6f25744181958bbe9a99813955"
+          }
+        ],
+        [
+          "AMS1117模块",
+          1,
+          "AMS1117模块",
+          "U2",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "risym",
+            "link": "https://m.tb.cn/h.VOj4bnW?sm=f9af33",
+            "Contributor": "huygvf123",
+            "spiceSymbolName": "AMS1117模块 COPY",
+            "puuid": "c45b4d95c30a4a6b8d0b189c1fffbc5f",
+            "uuid": "d093bc01350b4057b829882ed33b6bd9"
+          }
+        ],
+        [
+          "0805LED_G",
+          1,
+          "LED-SMD_L2.0-W1.3-R-RD",
+          "U3",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900010436",
+            "Manufacturer": "null",
+            "Manufacturer Part": "",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "0805LED_G",
+            "puuid": "5fbfb2fb66604cca83a0ad4806cfac17",
+            "uuid": "4cea37382ce74aad9928d2b8f0987b04"
+          }
+        ],
+        [
+          "人机交互开关",
+          2,
+          "SW-SMD_L6.0-W3.7-LS8.0",
+          "U4,U5",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2845163",
+            "Manufacturer": "null",
+            "Manufacturer Part": "",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "RISYM 3X6X2.5轻触开关",
+            "puuid": "ad93db20f9154747917ef59d9c83636d",
+            "uuid": "d5622905726b48918e9605fe1cdf0a7b"
+          }
+        ],
+        [
+          "AT24C02N-10SU-2.7",
+          1,
+          "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL",
+          "U6",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2929937",
+            "Manufacturer": "null",
+            "Manufacturer Part": "",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "AT24C02N-10SU-2.7",
+            "puuid": "806a55eb4d3c40ab838f70f86785d85e",
+            "uuid": "a6f246a054fe434ca35c636510414d27"
+          }
+        ],
+        [
+          "MP1584贴片降压模块5V3A",
+          1,
+          "MP1584贴片降压模块5V3A",
+          "U7",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "MiaoXiangMaker",
+            "spiceSymbolName": "MP1584贴片降压模块5V3A",
+            "puuid": "e08032c2cced45ce913df9792d4b588d",
+            "uuid": "2c3467347bbf4837a897fa635c899e0f"
+          }
+        ],
+        [
+          "UART",
+          1,
+          "HDR-M-2.54_1X3",
+          "UART1",
+          {
+            "Supplier Part": "C180248",
+            "Supplier": "LCSC",
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "image": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "HDR-M-2.54_1x3",
+            "puuid": "9f77654394344f25b3de138e0fe05ff6",
+            "uuid": "a68dc5e6a9944c46b7604648a43dcd65"
+          }
+        ]
+      ],
+      "updateTime": 1707316584,
+      "createTime": 1704739512,
+      "histories": [],
+      "created_at": "2024-01-09 02:45:12",
+      "updated_at": "2024-02-07 22:36:24"
+    },
+    {
+      "uuid": "434dece3a47b7e39686f53a339a95d1e",
+      "title": "PCB_剑客_遥控器1.0",
+      "filename": "PCB_剑客_遥控器1.0.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "b60f399a7a7e41848b2be1eb49c79141": 6,
+        "5fbfb2fb66604cca83a0ad4806cfac17": 1,
+        "2ee8eb13a0124a108e622ce40c0c25a8": 7,
+        "4a58e714fc44451682dcd3e3ebc7775b": 1,
+        "9f77654394344f25b3de138e0fe05ff6": 1,
+        "282f7786cb6144d097ae00194c3e3fb3": 1,
+        "9cf846aa20f04fecb2373a44dfe9e35b": 1,
+        "ad93db20f9154747917ef59d9c83636d": 2,
+        "108969f8d9834a9ea23bcec2d43a66e4": 1,
+        "806a55eb4d3c40ab838f70f86785d85e": 1,
+        "e08032c2cced45ce913df9792d4b588d": 1,
+        "391beaaa4ed54f61a90e020b5ec7be18": 2,
+        "28c215f5a6bc43e8b0176487ccb6f517": 1,
+        "c45b4d95c30a4a6b8d0b189c1fffbc5f": 1,
+        "fb11a1cdebf6433b8a3c664a100689e6": 1,
+        "6bd5d90d01ea4ccc8e22e8158668a4d8": 1,
+        "b4cb6e6f44a64822b1a75e418bd409f5": 1
+      },
+      "BOM": [],
+      "updateTime": 1706514012,
+      "createTime": 1704739810,
+      "histories": [],
+      "created_at": "2024-01-09 02:50:10",
+      "updated_at": "2024-01-29 15:40:12"
+    }
+  ],
+  "sort": [],
+  "title": "剑客_遥控器2.0",
+  "foldername": "剑客_遥控器2.0",
+  "schfilename": "剑客_遥控器2.0.json",
+  "schfilemtime": 1707316584166
+}
